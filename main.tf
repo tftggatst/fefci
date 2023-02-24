@@ -11,3 +11,9 @@ resource "google_storage_bucket" "bucket1" {
   location      = "US"
   project = "strong-bus-371816"  
 }
+
+resource "google_storage_bucket" "bucket2" {
+  name          = "feb2023bucket-2"
+  location      = "US"
+  project = "strong-bus-371816"  
+}
